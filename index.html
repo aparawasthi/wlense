@@ -41,8 +41,8 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+						<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+						<li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
 	          <li class="nav-item"><a href="#destination-section" class="nav-link"><span>Destination</span></a></li>
 	          <li class="nav-item"><a href="#hotel-section" class="nav-link"><span>Hotel</span></a></li>
 	          <li class="nav-item"><a href="#restaurant-section" class="nav-link"><span>Restaurant</span></a></li>
@@ -61,7 +61,7 @@
 	        <div class="container-fluid p-0">
 	          <div class="row d-md-flex no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
 	          	<div class="one-third order-md-last">
-	          		<div class="img" style="background-image:url(images/bg_1.jpg);">
+	          		<div class="img" style="background-image:url(images/dudhwa.jpg);">
 	          			<div class="overlay"></div>
 	          		</div>
 	          		<div class="bg-primary">
@@ -185,56 +185,6 @@
 	    	</div>
 	    </div>
     </section> -->
-		
-		<section class="ftco-section ftco-services-2" id="services-section">
-			<div class="container">
-				<div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<span class="subheading">Sexy &amp; Healthy</span>
-            <h2 class="mb-4">Our Services</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-md d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services text-center d-block">
-              <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-gliding"></span></div>
-              <div class="media-body">
-                <h3 class="heading mb-3">Activities</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services text-center d-block">
-              <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-world"></span></div>
-              <div class="media-body">
-                <h3 class="heading mb-3">Travel Arrangement</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services text-center d-block">
-              <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-tour-guide"></span></div>
-              <div class="media-body">
-                <h3 class="heading mb-3">Private Guide</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services text-center d-block">
-              <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-map-of-roads"></span></div>
-              <div class="media-body">
-                <h3 class="heading mb-3">Location Manager</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>      
-          </div>
-        </div>
-			</div>
-		</section>
 
 		<section class="ftco-section bg-light" id="about-section">
       <div class="container">
@@ -252,10 +202,10 @@
 							<div id="map"></div>
 							<script>
 							function initMap() {
-								var dudhwa = {lat: 28.540568, lng: 80.616369};
+								var dudhwa_ = {lat: 28.540568, lng: 80.616369};
 								var map = new google.maps.Map(
-										document.getElementById('map'), {zoom: 4, center: dudhwa});
-								var marker = new google.maps.Marker({position: dudhwa, map: map});
+										document.getElementById('map'), {zoom: 4, center: dudhwa_});
+								var marker = new google.maps.Marker({position: dudhwa_, map: map});
 							}
 							</script>
 					</div>
@@ -430,6 +380,56 @@
         </div>
       </div>
     </section>
+
+		<section class="ftco-section ftco-services-2" id="services-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+					<div class="col-md-12 heading-section text-center ftco-animate">
+						<span class="subheading">Sexy &amp; Healthy</span>
+						<h2 class="mb-4">Our Services</h2>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md d-flex align-self-stretch ftco-animate">
+						<div class="media block-6 services text-center d-block">
+							<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-gliding"></span></div>
+							<div class="media-body">
+								<h3 class="heading mb-3">Activities</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>      
+					</div>
+					<div class="col-md d-flex align-self-stretch ftco-animate">
+						<div class="media block-6 services text-center d-block">
+							<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-world"></span></div>
+							<div class="media-body">
+								<h3 class="heading mb-3">Travel Arrangement</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>      
+					</div>
+					<div class="col-md d-flex align-self-stretch ftco-animate">
+						<div class="media block-6 services text-center d-block">
+							<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-tour-guide"></span></div>
+							<div class="media-body">
+								<h3 class="heading mb-3">Private Guide</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>      
+					</div>
+					<div class="col-md d-flex align-self-stretch ftco-animate">
+						<div class="media block-6 services text-center d-block">
+							<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-map-of-roads"></span></div>
+							<div class="media-body">
+								<h3 class="heading mb-3">Location Manager</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</div>      
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb">
     	<div class="container">
